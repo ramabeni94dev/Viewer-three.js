@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Threejs with loader</title>
+    <script type="module" src="/index.js"></script>
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      Visualizador de piezas STL / Nodejs - Threejs - STLLoader
+    </h1>
+    <form>
+      <input type="file" id="fileInput" />
+      <button type="submit">Cargar archivo</button>
+    </form>
+    <div><strong>Ancho:</strong> <span id="width"></span></div>
+    <div><strong>Largo:</strong> <span id="length"></span></div>
+    <div><strong>Alto:</strong> <span id="height"></span></div>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>
